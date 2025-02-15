@@ -1,6 +1,6 @@
 ---
 title: 'Ověření'
-pagetitle: ''
+pagetitle: 'Ověření'
 description: 'Ověření mých (online) identit'
 slugOverride: 'verify'
 layout: page.njk

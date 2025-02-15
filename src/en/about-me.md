@@ -1,6 +1,6 @@
 ---
 title: 'About me'
-pagetitle: ''
+pagetitle: 'About me'
 description: 'About me'
 slugOverride: 'about me'
 layout: page.njk

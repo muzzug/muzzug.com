@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-pagetitle: ''
+pagetitle: 'Contact'
 description: 'How you can contact me'
 slugOverride: 'contact'
 layout: page.njk

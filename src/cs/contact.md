@@ -1,6 +1,6 @@
 ---
 title: 'Kontakt'
-pagetitle: ''
+pagetitle: 'Kontakt'
 description: 'Jak mě můžeš kontaktovat'
 slugOverride: 'contact'
 layout: page.njk

@@ -1,6 +1,6 @@
 ---
 title: 'Verify'
-pagetitle: ''
+pagetitle: 'Verify'
 description: 'Verify my (online) identities'
 slugOverride: 'verify'
 layout: page.njk

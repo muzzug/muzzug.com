@@ -1,6 +1,6 @@
 ---
 title: 'O mně'
-pagetitle: ''
+pagetitle: 'O mně'
 description: 'O mně'
 slugOverride: 'about me'
 layout: page.njk

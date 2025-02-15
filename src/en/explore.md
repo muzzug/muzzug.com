@@ -1,6 +1,6 @@
 ---
 title: 'More'
-pagetitle: 'More pages...'
+pagetitle: 'More pages'
 description: 'More pages...'
 slugOverride: 'explore'
 layout: page.njk

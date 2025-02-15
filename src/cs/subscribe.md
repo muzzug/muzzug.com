@@ -1,6 +1,6 @@
 ---
 title: 'Subscribe'
-pagetitle: ''
+pagetitle: 'Subscribe'
 description: 'Subscribe.'
 slugOverride: 'subscribe'
 layout: 'page.njk'

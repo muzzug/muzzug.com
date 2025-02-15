@@ -1,6 +1,6 @@
 ---
 title: 'Další'
-pagetitle: 'Další stránky...'
+pagetitle: 'Další stránky'
 description: 'Další stránky...'
 slugOverride: 'explore'
 layout: page.njk

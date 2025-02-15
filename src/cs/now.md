@@ -1,6 +1,6 @@
 ---
 title: 'Now'
-pagetitle: ''
+pagetitle: 'Now'
 description: 'Now. Česky.'
 slugOverride: 'now'
 layout: page.njk
