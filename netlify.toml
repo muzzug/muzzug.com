@@ -1,0 +1,48 @@
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  TZ = "Europe/Prague"
+
+# redirect to english, spanish or german landing pages.
+
+[[redirects]]
+  from = "/"
+  to = "/cs"
+  status = 302
+  force= true
+  conditions = {Language = ["cs"]}
+
+  [[redirects]]
+  from = "/"
+  to = "/cs"
+  status = 302
+  force= true
+  conditions = {Language = ["sk"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
+
+# redirect the 404 pages to your specific variant.
+
+[[redirects]]
+  from = "/cs/*"
+  to = "/cs/404"
+  status = 404
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404"
+  status = 404

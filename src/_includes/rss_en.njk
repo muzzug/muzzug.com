@@ -1,0 +1,25 @@
+---
+layout: default
+pagination:
+  data: collections.rss_en
+  size: 1
+  alias: posts
+permalink: /en/rss.xml
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}/en/</link>
+    <description>{{ site.description }}</description>
+    <language>en</language>
+    {% for post in posts %}
+      <item>
+        <title>{{ post.data.title }}</title>
+        <link>{{ site.url }}/en{{ post.url }}</link>
+        <description>{{ post.data.excerpt }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

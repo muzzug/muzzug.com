@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="fediverse:creator" content="@muzzug@mastodon.gamedev.place">
+    <meta name="description" content="{{ description }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta name="og:description" content="{{ description }}">
+    {% if page.lang == "cs" %}
+      {% if page.url == "/cs/" %}
+        <title>{{ meta.siteNameCZ }}</title>
+      {% else %}
+        <title>{{ pagetitle | default(title) }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ meta.siteNameCZ }}</title>
+      {% endif %}
+    {% elif page.lang == "en" %}
+      {% if page.url == "/en/" %}
+        <title>{{ meta.siteNameEN }}</title>
+      {% else %}
+        <title>{{ pagetitle | default(title) }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ meta.siteNameEN }}</title>
+      {% endif %}
+    {% endif %}
+    {% if page.url == '/{{ page.lang }}/' %}
+      <title>{{ meta.siteName }}</title>
+    {% else %}
+      <title>{{ pagetitle | default(title) }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ meta.siteName }}</title>
+    {% endif %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ meta.url }}{{ page.url }}"/>
+    {% for link in page.url | locale_links %}
+      <link rel="alternate" hreflang="{{ link.lang }}" href="{{ meta.url }}{{ link.url }}"/>
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ meta.url }}{{ page.url | locale_url('en') }}"/>
+    <link rel="canonical" href="{{ meta.url }}{{ page.url }}"/>
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link
+    rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
+    <!-- ANALYTICS -->
+    {% if env !== "development" %}
+      <script defer src="https://umami.muzzug.com/script.js" data-website-id="36fd93ca-7cc8-4ae3-ab4f-98fa270ba6db"></script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="wrapper">
+      {% include "header.njk" %}
+      <main>
+        {% if env == "development" %}
+          <p class="centered">!!! DEVEL !!!</p>
+        {% endif %}
+        {{ content | safe }}
+      </main>
+      {% include "footer.njk" %}
+    </div>
+  </body>
+</html></head></html>

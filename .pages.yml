@@ -1,0 +1,54 @@
+media:
+  input: src/media
+  output: /media
+content:
+  - name: czblog
+    label: CZ Blog
+    type: collection
+    path: 'src/cs/blog'
+    view:
+      fields: [ title, date ]
+    fields:
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+          format: yyyy-MM-dd HH:mm:ss
+      - name: title
+        label: Title
+        type: string
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values: [ post.njk ]
+      - name: body
+        label: Body
+        type: rich-text
+  - name: enblog
+    label: EN Blog
+    type: collection
+    path: 'src/en/blog'
+    view:
+      fields: [ title, date ]
+    fields:
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
+          format: yyyy-MM-dd HH:mm:ss
+      - name: title
+        label: Title
+        type: string
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values: [ post.njk ]
+          default: post.njk
+      - name: body
+        label: Body
+        type: rich-text
+  

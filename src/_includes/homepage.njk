@@ -1,0 +1,17 @@
+---
+layout: base.njk
+translate: false
+---
+
+{%- if translate == true -%}
+  {% for link in page.url | locale_links %}
+    {%- if page.lang == "en" -%}
+      Tahle stránka je dostupná i
+      <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">česky</a>.
+    {%- elif page.lang == "cs" -%}
+      This page is also available in
+      <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">English</a>.
+    {%- endif -%}
+  {% endfor %}
+{%- endif -%}
+{{ content | safe }}

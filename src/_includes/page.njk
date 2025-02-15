@@ -1,0 +1,29 @@
+---
+layout: base.njk
+translate: false
+permalink: "/{{ lang }}/{{ title | slugify }}.html"
+---
+
+<article class="article-page">
+  <h1>
+    {%- if not pagetitle -%}
+      {{ title }}
+    {%- else -%}
+      {{ pagetitle }}
+    {%- endif -%}
+  </h1>
+  {%- if translate == true -%}
+    {% for link in page.url | locale_links %}
+      {%- if page.lang == "en" -%}
+        <blockquote class="centered">🇨🇿 Tahle stránka je dostupná i
+          <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">česky</a>. 🇨🇿</blockquote>
+      {%- elif page.lang == "cs" -%}
+        <blockquote class="centered">🇬🇧 This page is also available in
+          <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">English</a>. 🇬🇧</blockquote>
+      {%- endif -%}
+    {% endfor %}
+  {%- endif -%}
+  <div class="main-content">
+    {{ content | safe }}
+  </div>
+</article>

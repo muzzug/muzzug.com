@@ -1,0 +1,24 @@
+---
+layout: base.njk
+translate: true
+permalink: "/{{ lang }}/blog/{{ title | slugify }}.html"
+---
+
+<article class="article-post">
+  <h1>{{ title }}</h1>
+  <p class="post-date">{{ page.date | localizedDate(lang) }}</p>
+  {%- if translate == true -%}
+    {% for link in page.url | locale_links %}
+      {%- if page.lang == "en" -%}
+        <p class="translation-available">🇨🇿 Tenhle příspěvek je dostupný i
+          <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">česky</a>. 🇨🇿</p>
+      {%- elif page.lang == "cs" -%}
+        <p class="translation-available">🇬🇧 This post is also available in
+          <a href=" {{ link.url }} " lang=" {{ link.lang }} " hreflang=" {{ link.lang }} ">English</a>. 🇬🇧</p>
+      {%- endif -%}
+    {% endfor %}
+  {%- endif -%}
+  <div class="main-content">
+    {{ content | safe }}
+  </div>
+</article>

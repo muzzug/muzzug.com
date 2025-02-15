@@ -1,0 +1,12 @@
+<footer>
+
+<nav aria-label="{{ languages[page.lang].ariaPrimary }}">
+    <ul>
+      {% for item in navigation_bottom[page.lang] %}
+        <a href="{{ item.url }}">{{ item.text }}</a> {% if not loop.last %} / {% endif %} 
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <p>&copy; {{ helpers.currentYear() }} <a rel="me" href="https://mastodon.gamedev.place/@muzzug">Ondřej 'Muzzug' Kadlec</a></p>
+</footer>

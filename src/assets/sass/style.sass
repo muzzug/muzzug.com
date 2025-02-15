@@ -1,0 +1,280 @@
+@use "sass:color"
+@use "sass:math" 
+
+$background-color: #131418
+$font-color: #c7bebe
+$bold-color: #eaeaea
+$darker-color: color.scale($font-color, $blackness: 80% )
+$link-color: #ff2957
+$link-active-color: #ff5277
+$default-font-size: 16px
+
+body
+  background: $background-color
+  color: $font-color
+  margin: 0px
+  font-family: Consolas, monospace
+  font-size: $default-font-size
+  line-height: 1.85
+  font-weight: 400
+
+  a
+    color: $link-color
+    text-decoration: none
+
+    &:visited
+      color: $link-color
+
+    &:hover
+      color: $link-active-color
+
+    &:active
+      color: $link-active-color
+
+    &:not
+      color: $link-color
+
+  p
+    padding-top: 15px
+    padding-bottom: 10px
+
+    .bigger-font
+      font-size: $default-font-size * 1.2
+
+header
+  width: 100%
+  max-width: 1200px
+  border-bottom: 1px solid #1b1d25
+
+  overflow: hidden
+  position: relative
+  margin: 0px auto
+
+  nav
+    display: flex
+    flex-direction: row
+    align-items: right
+    justify-content: right
+
+    a
+      color: $darker-color
+      text-decoration: none
+
+      &:visited
+        color: $darker-color
+
+      &:hover
+        color: $bold-color
+
+      &:active
+        color: $bold-color
+
+      &[aria-current="page"]
+        color: $bold-color
+        font-weight: bold
+
+    svg .icon-rss
+        margin: 100px
+
+    ul
+      padding-left: 30px
+      padding-right: 30px
+
+    li
+      list-style: none
+      text-transform: lowercase
+      display: inline-block
+      padding: 5px 8px
+      line-height: 2.25
+      letter-spacing: 0.3px
+
+@media screen and (max-width: 600px)
+  header
+    nav
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: center
+
+      ul
+        padding-left: 10px
+        padding-right: 10px
+
+      li
+        padding: 5px 5px
+
+@media screen and (max-width: 370px)
+  .subscribe
+    display: none
+
+main
+  max-width: 800px
+  margin: 0px auto
+  padding-top: 60px
+  padding-left: 30px
+  padding-right: 30px
+  padding-bottom: 60px
+
+  h1, h2, h3, h4, h5, h6
+    color: $bold-color
+    line-height: 1.2
+    margin-top: 30px
+    margin-bottom: 10px
+    font-weight: 700
+
+  h1
+    font-size: 1.9em
+
+ 
+    
+
+  .posts-list
+    p
+      padding: 0
+
+    li:before
+      content: ""
+
+  .article-page
+    h1
+      text-align: center
+      margin-top: 10px
+      margin-bottom: 20px
+      &::after
+        content: '.'
+
+    ul
+        li
+          list-style: none
+        li:before
+          content: "\FE63"
+          display: inline-block
+          top: 2px
+          left: -4px
+          width: 1.2em
+          position: relative
+          margin-left: -1.3em
+
+
+  .post-date, .translation-available
+    color: $darker-color
+    margin-bottom: 20px
+
+  ::selection
+    background: #fffba0
+    color: #0d122b
+
+  .main-content
+    padding-top: 20px
+
+    p
+      letter-spacing: 0.5px
+
+  .article-post
+    ul
+      li
+        display: list-item
+        padding-top: 1px
+        padding-bottom: 10px
+        list-style: none
+
+        &::before
+          content: "—"
+          display: inline-block
+          top: -1px
+          width: 1.2em
+          position: relative
+          margin-left: -1.3em
+          font-weight: 700
+
+  .posts-list
+
+    padding-left: 0
+    list-style-type: none
+
+    li
+      padding-top: 5px
+      padding-bottom: 10px
+      line-height: 1.5em
+
+    .post-date-small
+      font-size: math.ceil($default-font-size * 0.8)
+      color: $darker-color
+      margin-left: 10px
+  
+  .recent-posts
+    h3
+      margin-top: 50px
+      margin-bottom: 10px
+
+    h4
+      margin-top: 20px
+
+      a
+        font-weight: normal
+        color: $font-color
+        padding: 5px
+
+        &:visited
+          color: $font-color
+
+        &:hover
+          color: $bold-color
+
+        &:active
+          color: $bold-color
+        
+        &:not
+          color: $font-color
+
+  .blog-posts-year:not(:first-of-type)
+    padding-top: 20px
+    padding-bottom: 0px
+
+  .date-changed
+    font-size: math.ceil($default-font-size * 0.8)
+    color: $darker-color
+
+  blockquote
+    margin: 10px
+    padding: 10px
+    color: #767f87
+
+  .centered
+    text-align: center
+
+  .author-homepage
+    margin: auto
+    width: 100%
+    text-align: center
+
+    h2
+      margin-top: 20px
+      margin-bottom: 10px
+      font-size: 30px
+
+    p
+      margin: 0px
+      padding: 0px
+  
+  .author-avatar-homepage
+    border-radius: 100%
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+
+footer
+  max-width: 1200px
+  margin: 0px auto
+  margin-bottom: 50px
+
+  border-top: 1px solid #1b1d25
+  padding-top: 15px
+
+  text-align: center
+
+  ul
+    padding: 0px
+    li
+      padding: 0px
