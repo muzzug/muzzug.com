@@ -10,8 +10,7 @@ translate: true
     <h2 class="blog-posts-year">{{ year }}</h2>
     <ul class="posts-list">
       {% for post in posts -%}
-        <li>
-          <a href="{{ post.url }}">{{ post.data.title }}</a><br>
+        <li><a href="{{ post.url }}">{{ post.data.title }}</a><br>
           <span class="post-date-small"> - {{ post.date | localizedDate(lang) }} <!-- , {{ post.data.tags | join(", ") }} --> </span>
         </li>
       {%- endfor %}
@@ -19,4 +18,4 @@ translate: true
   {%- endfor %}
 {% else %}
   <p class="centered">Zatím tady nejsou žádné články. 😥</p>
-{% endif %}
+{% endif %} 

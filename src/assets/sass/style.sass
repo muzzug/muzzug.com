@@ -18,6 +18,9 @@ body
   line-height: 1.85
   font-weight: 400
 
+  .bigger-flag
+    font-size: 22px
+
   a
     color: $link-color
     text-decoration: none
@@ -128,15 +131,7 @@ main
   h1
     font-size: 1.9em
 
- 
-    
 
-  .posts-list
-    p
-      padding: 0
-
-    li:before
-      content: ""
 
   .article-page
     h1
@@ -157,6 +152,13 @@ main
           width: 1.2em
           position: relative
           margin-left: -1.3em
+
+        &.posts-list
+          p
+            padding: 0px 
+
+          li:before
+            content: ""
 
 
   .post-date, .translation-available

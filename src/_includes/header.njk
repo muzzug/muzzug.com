@@ -22,16 +22,16 @@
         {% if links | length > 0 %}
           {% for link in links %}
             {%- if page.lang == "en" -%}
-              <a href="{{ link.url }}" lang="cs" hreflang="cs">🇨🇿</a>
+              <a href="{{ link.url }}" lang="cs" hreflang="cs"><span class="bigger-flag">🇨🇿</span></a>
             {%- elif page.lang == "cs" -%}
-              <a href="{{ link.url }}" lang="en" hreflang="en">🇬🇧</a>
+              <a href="{{ link.url }}" lang="en" hreflang="en"><span class="bigger-flag">🇬🇧</span></a>
             {%- endif -%}
           {% endfor %}
         {% else %}
           {%- if page.lang == "en" -%}
-            <a href="/cs/" lang="cs" hreflang="cs">🇨🇿</a>
+            <a href="/cs/" lang="cs" hreflang="cs"><span class="bigger-flag">🇨🇿</span></a>
           {%- elif page.lang == "cs" -%}
-            <a href="/en/" lang="en" hreflang="en">🇬🇧</a>
+            <a href="/en/" lang="en" hreflang="en"><span class="bigger-flag">🇬🇧</span></a>
           {%- endif -%}
         {% endif %}
       </li>
