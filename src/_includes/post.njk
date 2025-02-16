@@ -5,7 +5,13 @@ permalink: "/{{ lang }}/blog/{{ title | slugify }}.html"
 ---
 
 <article class="article-post">
-  <h1>{{ title }}</h1>
+  <h1>
+    {%- if not pagetitle -%}
+      {{ title }}
+    {%- else -%}
+      {{ pagetitle }}
+    {%- endif -%}
+  </h1>
   <p class="post-date">{{ page.date | localizedDate(lang) }}</p>
   {%- if translate == true -%}
     {% for link in page.url | locale_links %}
@@ -14,7 +20,7 @@ permalink: "/{{ lang }}/blog/{{ title | slugify }}.html"
           <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">česky</a>. 🇨🇿</p>
       {%- elif page.lang == "cs" -%}
         <p class="translation-available">🇬🇧 This post is also available in
-          <a href=" {{ link.url }} " lang=" {{ link.lang }} " hreflang=" {{ link.lang }} ">English</a>. 🇬🇧</p>
+          <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">English</a>. 🇬🇧</p>
       {%- endif -%}
     {% endfor %}
   {%- endif -%}
@@ -30,5 +36,6 @@ permalink: "/{{ lang }}/blog/{{ title | slugify }}.html"
         <p class="date-changed">naposledy upraveno
           {{ updateDate | localizedDate(lang) }}</p>
       {%- endif -%}
-    </div>
-  </article>
+    {%- endif -%}
+  </div>
+</article>

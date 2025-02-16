@@ -13,6 +13,7 @@ console.log("Registered Functions:", Object.keys(functions));
 
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy('src/favicon.ico');
 
   console.log("Eleventy environment:", process.env.NODE_ENV);
