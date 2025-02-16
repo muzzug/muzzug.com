@@ -17,13 +17,24 @@
           </svg>
         </a>
       </li>
+      <li class="country-flag">
+        {% set links = page.url | locale_links %}
+        {% if links | length > 0 %}
+          {% for link in links %}
+            {%- if page.lang == "en" -%}
+              <a href="{{ link.url }}" lang="cs" hreflang="cs">🇨🇿</a>
+            {%- elif page.lang == "cs" -%}
+              <a href="{{ link.url }}" lang="en" hreflang="en">🇬🇧</a>
+            {%- endif -%}
+          {% endfor %}
+        {% else %}
+          {%- if page.lang == "en" -%}
+            <a href="/cs/" lang="cs" hreflang="cs">🇨🇿</a>
+          {%- elif page.lang == "cs" -%}
+            <a href="/en/" lang="en" hreflang="en">🇬🇧</a>
+          {%- endif -%}
+        {% endif %}
+      </li>
     </ul>
   </nav>
-  <!-- {% for link in page.url | locale_links %}
-                          {%- if page.lang == "en" -%}
-                          Tahle stránka je dostupná <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">česky</a>.
-                          {%- elif page.lang == "cs" -%}
-                          This page is available in <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">English </a>.
-                          {%- endif -%}
-                          {% endfor %} -->
 </header>

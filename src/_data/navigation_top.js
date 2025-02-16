@@ -13,7 +13,7 @@ export default {
       url: '/cs/blog.html'
     },
     {
-      text: 'Další...',
+      text: 'Další…',
       url: '/cs/dalsi.html'
     }
   ],
@@ -31,7 +31,7 @@ export default {
       url: '/en/blog.html'
     },
     {
-      text: 'More...',
+      text: 'More…',
       url: '/en/more.html'
     }
   ]
