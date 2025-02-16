@@ -70,4 +70,4 @@ Rád zjišťuju co používají ostatní. Pokud to máš taky tak, jsi na správ
 - inkoust Jacques Herbin - Vert de Gris
 - zápisníčky BOBO Blok Passbook
 
-<p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p>
+<p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p>

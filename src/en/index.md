@@ -10,7 +10,7 @@ translate: false
 <div class="author-homepage">
     <img src="/assets/images/muzz.webp" class="author-avatar-homepage" alt="Muzzug" width="120px" height="120px">
     <h2 class="author-name">Muzzug</h2>
-    <p>Mým cílem je něco...</p>
+    <p>My goal is something...</p>
 </div>
 
 <div class="recent-posts">

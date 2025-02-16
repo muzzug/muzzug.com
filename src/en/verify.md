@@ -38,4 +38,4 @@ I have a profile here, but I don't come here.
 I try not to publish my email too much, but if you want to contact me, you can use [{{meta.email}}](mailto:{{meta.email}}).  
 I will most likely reply from ***@pm.me** or ***@protonmail.com**.
 
-<!-- <p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p> -->
+<!-- <p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p> -->

@@ -17,4 +17,4 @@ Where definitely don't try _(I don't use those networks)_:
 - Facebook
 - Instagram  
 
-<!-- <p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p> -->
+<!-- <p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p> -->
