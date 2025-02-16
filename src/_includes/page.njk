@@ -27,3 +27,14 @@ permalink: "/{{ lang }}/{{ title | slugify }}.html"
     {{ content | safe }}
   </div>
 </article>
+{%- if page.lang == "en" -%}
+  {%- if updateDate -%}
+    <p class="date-changed">last modified
+      {{ updateDate | localizedDate(lang) }}</p>
+  {%- endif -%}
+{%- elif page.lang == "cs" -%}
+  {%- if updateDate -%}
+    <p class="date-changed">naposledy upraveno
+      {{ updateDate | localizedDate(lang) }}</p>
+  {%- endif -%}
+{%- endif -%}

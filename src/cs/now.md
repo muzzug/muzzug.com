@@ -29,6 +29,3 @@ Máme úžasného kocoura 😸 Siriuse (britská modrá, makrela).
 
 - Annie Zimmerman: Váš kapesní terapeut  
 - Jesse Schell: The Art of Game Design: A Book of Lenses (3rd Edition)
-
-
-<p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p>

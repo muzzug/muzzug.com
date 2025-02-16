@@ -37,5 +37,3 @@ Tady profil mám, ale nechodím sem.
 ## E-mail
 Svůj e-mail se snažím moc nezveřejňovat, ale pokud mě chceš kontaktovat, můžeš použít [{{meta.email}}](mailto:{{meta.email}}).  
 S největší pravděpodobností odepíšu z ***@pm.me** nebo ***@protonmail.com**.
-
-<!-- <p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p> -->

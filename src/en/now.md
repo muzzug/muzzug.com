@@ -29,6 +29,3 @@ We have an amazing cat 😸 Sirius (British blue, mackerel).
 
 - Annie Zimmerman: Váš kapesní terapeut  (czech)
 - Jesse Schell: The Art of Game Design: A Book of Lenses (3rd Edition)
-
-
-<p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p>

@@ -69,5 +69,3 @@ Rád zjišťuju co používají ostatní. Pokud to máš taky tak, jsi na správ
 - plnicí pero TWSBI Eco T, Clear, hrot EF
 - inkoust Jacques Herbin - Vert de Gris
 - zápisníčky BOBO Blok Passbook
-
-<p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p>

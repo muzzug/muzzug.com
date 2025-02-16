@@ -15,6 +15,4 @@ updateDate: 2025-02-14
 Where definitely don't try _(I don't use those networks)_:
 - Twitter (X)
 - Facebook
-- Instagram  
-
-<!-- <p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p> -->
+- Instagram

@@ -16,5 +16,3 @@ Kde to rozhodně nezkoušej _(tyhle sítě nepoužívám)_:
 - Twitter (X)
 - Facebook
 - Instagram  
-
-<!-- <p class="date-changed">naposledy upraveno {{ updateDate | localizedDate(lang) }}</p> -->

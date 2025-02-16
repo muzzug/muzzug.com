@@ -69,5 +69,3 @@ I like to find out what others are using. If you do too, you've come to the righ
 - TWSBI Eco T fountain pen, Clear, EF nib
 - Ink Jacques Herbin - Vert de Gris
 - BOBO Blok Passbook
-
-<p class="date-changed">last modified {{ updateDate | localizedDate(lang) }}</p>
