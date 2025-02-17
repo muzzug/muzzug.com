@@ -2,7 +2,7 @@
 title: Týdenní poznámky - 44/2024
 date: 2024-11-03 20:00:00
 description: Týdenní poznámky za 44. týden 2024
-updateDate:
+updateDate: 2025-02-17
 tags: [týdenní poznámky]
 layout: post.njk
 rssOnly: false
@@ -18,5 +18,7 @@ Po hře jsme zašli na večeři, po které jsem si udělal rychlou procházku
 Píše se s ním skvěle a zjistil jsem, že zápisníky co dělá Bobo blok jdou s plnicími pery použít - inkoust se nepropisuje, neprosakuje, skoro nejde vidět. Paráda a doporučuju!
 - Odpoledne jsme naskočili k bráchovi do auta vyrazili za tátou do Budějovic. Večer jsme měli lístky do Jihočeského divadla na hru [Perplex](https://www.jihoceskedivadlo.cz/porad/2426-perplex). Boží! Nutně potřebuju kostým losa! 🫎
 - V sobotu jsme se odpoledne akorát vrátili do Brna a zbytek dne odpočívali. Večer jsem akorát chvilku pokecal s Thomasem a Ronne kteří u nás od pátku přespávali během Comic Conu Junior.
-- Neděle byla docela náročná. Psychicky. Nejdřív jsem se pokoušel hrát si s Eleventy a novým webem, ale moc mi to nešlo. Zasekl jsem se na tom, že se mi správně neřadí příspěvky a roky (tak jak to mám tady v [Archivu](../../archiv/)). Mrf.<br><br>
+- Neděle byla docela náročná. Psychicky. Nejdřív jsem se pokoušel hrát si s Eleventy a novým webem, ale moc mi to nešlo. Zasekl jsem se na tom, že se mi správně neřadí příspěvky a roky (tak jak to mám tady v Archivu[^1]. Mrf.<br><br>
 Nechal jsem toho a šel si číst. Ale během odpoledne na mně vlezla nějaká blbá nálada, úzkost a kdo ví co ještě. Možná za to může ten podzim? Nebo nevím… Kozlík pomohl, naštěstí, ale sebralo mi to energii na celý den. 😔
+
+[^1]: Odstraněn nefunkční odkaz.

@@ -8,13 +8,13 @@ tags: [gamedev]
 rssOnly: false
 ---
 
-V posledních [Týdenních poznámkách](/2024/03/tydenni-poznamky-11-2024) jsem si tak trochu postěžoval, že mi nejde plánování kolem projektu Vigmark.  
+V posledních [Týdenních poznámkách](./tydenni-poznamky-11-2024) jsem si tak trochu postěžoval, že mi nejde plánování kolem projektu Vigmark.  
 
 Mám celkem jasnou představu o tom, jak má hra vypadat a co v ní má být. Ještě teda trochu ladím příběh a o co tam půjde, ale hlavní __mechaniky__ mám připravené a rozepsané. Dost mi to usnadnil fakt, že vycházím z už existujících pravidel a v zásadě je modifikuju pro použití v digitálním prostředí.
 
 Problém ale nastal v tom, že jsem hleděl do otevřeného Godotu a přemýšlel, co vlastně dělat. Měl jsem popis toho, co chci udělat, ale neměl plán jak toho dosáhnout. A tak jsem otevřel Obsidian (kde mám veškeré poznámky a kde si dělám dokumentaci) a začal přemýšlet co s tím.
 
-Už jsem v jedněch starších [Týdenních poznámkách](/2024/03/tydenni-poznamky-09-2024) popisoval, že si udělám Kanban board, a tak jsem se do toho vrhnul. Klasické rozložení na Backlog, Todo, Doing a Done mi mělo stačit.
+Už jsem v jedněch starších [Týdenních poznámkách](./tydenni-poznamky-09-2024) popisoval, že si udělám Kanban board, a tak jsem se do toho vrhnul. Klasické rozložení na Backlog, Todo, Doing a Done mi mělo stačit.
 
 Při vytváření jednotlivých kartiček mi ale došlo, že tohle nebude úplně šťastná cesta. Přišlo mi, že mi to bere hrozně moc času. Napsat nějak rozumně kartičku, případně ji propojit s danou poznámkou, a pak ji ještě přehazovat ze sloupečku do sloupečku. Kravina. V projektu o jednom člověku je to fakt zbytečná ztráta času, zvlášť když samotné vytvoření a zpracování kartičky občas zabere víc času, než samotné vytvořené té funkce.[^1] 😅
 

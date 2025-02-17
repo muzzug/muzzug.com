@@ -4,3 +4,4 @@ export const siteNameEN = 'Muzzug\'s piece of the internet';
 export const siteDescription = "";
 export const ogImage = '/opengraph.jpg';
 export const email = '4a1.n7vhp@slmail.me'
+export const mastodon = 'https://mastodon.gamedev.place/@muzzug'

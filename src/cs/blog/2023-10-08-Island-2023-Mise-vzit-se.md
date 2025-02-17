@@ -1,7 +1,7 @@
 ---
 title: "Island 2023: Mise vzít se"
 date: 2023-10-08 20:00:00 
-updateDate:
+updateDate: 2025-02-17
 layout: post.njk 
 tags: [cestování]
 description: Po čtyřech letech čekání a šetření jsme vyrazili na Island s jasným cílem - vzít se. Jak to probíhalo?
@@ -151,7 +151,7 @@ Protože jsme začali mít hlad, přesunuli jsme se do centra Reykjavíku, kde t
 
 [^6]: Polévky si tady můžete neomezeně doplňovat. Rekord drží nějaký polák který zvládl 14 doplnění!
 
-Po jídle jsme vyrazili znovu do města. Na poslední chvíli nás napadlo zajít si do [Pönksafn Íslands](https://icelandic-punk-museumponksafn-islands.business.site/) – muzea islandského punku, které v bývalých podzemních záchodech provozuje neskutečně milý punkáč, který nás hned u vstupu „seřval“ že jak to že nemáme Kofolu. Nakonec si s námi ale hezky pokecal, „zazpíval“ Známku punku od Visáčů a když zjistil, že jsme měli den před tím svatbu, tak nám dal malý dárek. 🙂
+Po jídle jsme vyrazili znovu do města. Na poslední chvíli nás napadlo zajít si do [Pönksafn Íslands](https://web.archive.org/web/20221022045521/https://icelandic-punk-museumponksafn-islands.business.site/)[^1] – muzea islandského punku, které v bývalých podzemních záchodech provozuje neskutečně milý punkáč, který nás hned u vstupu „seřval“ že jak to že nemáme Kofolu. Nakonec si s námi ale hezky pokecal, „zazpíval“ Známku punku od Visáčů a když zjistil, že jsme měli den před tím svatbu, tak nám dal malý dárek. 🙂
 
 Když jsme vylezli z muzea, odpojili jsme se s Týnou od zbytku skupiny – chtěli jsme nakoupit nějaké suvenýry, sehnat Týně islandský svetr, ať je jí v zimě teplo, a ještě v rychlosti kouknout do kostela Hallgrímskirkja, kam jsme se první den nedostali.
 
@@ -170,3 +170,5 @@ No, tak takhle nějak probíhal náš výlet na Island.
 Stejně jako před lety v Norsku se nám ani letos nepodařilo vidět polární záři. Potvora se nám vyhýbá… 🫤 
 
 Ale jinak se mi podařilo splnit všechny tři cíle, které jsem na tomhle výletu měl (ochutnat Hákarl, vidět mroží penis a oženit se), takže ho hodnotím velmi pozitivně. 🙂 Teď už jenom našetřit na to, abychom se tam jednou mohli vrátit a podívat se i do dalších částí.
+
+[^1]: Web už neexistuje, změněno na Internet Archive

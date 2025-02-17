@@ -2,7 +2,7 @@
 title: Týdenní poznámky - 52/2023
 date: 2023-12-31 20:00:00
 description: Týdenní poznámky za 52. týden 2023
-updateDate:
+updateDate: 2025-02-17
 layout: post.njk
 tags: [týdenní poznámky]
 rssOnly: false
@@ -10,7 +10,7 @@ rssOnly: false
 Poslední letošní shrnutí týdne je tu. Tak hurá na to!
 
 - Hned v pondělí jsem [na Mastodonu](https://mastodon.gamedev.place/@muzzug/111640624084763657) oznámil svůj plán se během volna mezi svátky podívat na připomínky co jsem dostal ke svojí hře a zapracovat je. Některé mi fakt dávají smysl a myslím, že hru posunou mnohem dál.<br>Ovšem…
-- Za celou dobu se mi nepodařilo se k tomu donutit. Motivace to udělat byla ve finále nulová a já vlastně většinu času prokrastinoval a „užíval“ si následné výčitky že nic nedělám. Nakonec jsem to ve čtvrtek [oficiálně vzdal](https://mastodon.gamedev.place/@muzzug/111658033979636905). A nestydím se za to.<br><br>
+- Za celou dobu se mi nepodařilo se k tomu donutit. Motivace to udělat byla ve finále nulová a já vlastně většinu času prokrastinoval a „užíval“ si následné výčitky že nic nedělám. Nakonec jsem to ve čtvrtek oficiálně vzdal [^1]. A nestydím se za to.<br><br>
 Mám pocit, že z té hry začínám být malinko vyhořelý. Nápad na ni vznikl před cca 5 lety když jsem zkoušel dělat v Unity. Pak jsem objevil Godot, zalíbil se mi, a tak jsem ji začal předělávat v něm. Nakonec letos přišel Godot 4 a já ji zase udělal kompletně znovu, tentokrát v nové verzi.<br><br>
 I když je téměř hotová, asi ji nechám chvilku odpočívat. Mám nápad na jednu další kterou si zkusím rozepsat a rozpracovat. Akorát nevím co s tou starou – nechat ležet nevydanou, nebo pustit do světa tak, jak je? 🤔
 - Jako jeden ze způsobů mojí prokrastinace bylo úterní kafe u Finna. Od oslavy svojí svatby jsem ho neviděl, tak jsem mu prostě napsal jestli je doma a chce dát kafe. Bylo fajn ho zase vidět, takové přepady bych měl dělat častěji. 😃
@@ -32,3 +32,5 @@ Poslední věc, kterou jsem přidal, je lightbox pro fotky. Zatím nikde není, 
 
 ## Udělalo mi radost
 - SMS 31.12.2023 v 10:46: *Červené krvinky z Vašeho odběru právě pomáhají. Děkujeme, že jste naším dárcem! Vaše FN Brno* 🩸
+
+[^1]: Tady byl odkaz na příspěvek na Mastodonu, ale už se automaticky smazal, tak jsem ho dal pryč.

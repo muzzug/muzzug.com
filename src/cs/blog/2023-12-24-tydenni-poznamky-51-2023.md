@@ -16,7 +16,7 @@ Předposlední týden roku jsem strávil víceméně odpočinkově. Když nad t�
 - Párty na Svoboďáku a pokračování v hospodě vedlo k neskutečné lenosti na druhý den. Jasně, asi k tomu přispěl i konec roku kdy už je všechno takové líné, unavené a tak. Týna jela za kamarádkama do Zlína a já jsem zůstal doma s kocourem. A pokročil jsem v hraní Pokémonů. 
 - V pátek zas na Svoboďák na svařák. Přijela za náma mamka, tak jsme s Týnou, bráchou a jeho přítelkyní vyrazili na procházku po brněnských náměstích. Zakončili jsme to posezením u bráchy u sklenky vína.<br>
 Bacha na italská vína v lahvích, co vypadají jako litrové. Zdání klame, jsou jenom velké a tlusté! 😅
-- V sobotu jsem  pustil ven [článek o retrokonzolích](../../2023/12/retrokonzole-anbernic-rg35xx.html) dal se do dělání vany salátu. Navečer jsem ještě zaběhl do obchodu koupit si lososa na svátky a tatarák na štědrovečerní večeři.[^1] 
+- V sobotu jsem  pustil ven [článek o retrokonzolích](./retrokonzole-anbernic-rg35xx-plus.html) dal se do dělání vany salátu. Navečer jsem ještě zaběhl do obchodu koupit si lososa na svátky a tatarák na štědrovečerní večeři.[^1] 
 - Zkoušel jsem najít řešení jak si tady udělat takový ten klasický devadesátkový guestbook, aby mi sem lidi mohli napsat nějaká milá slova. Asi to nějak půjde, ale ještě jsem nepřišel na to jak. Třeba někdy časem. 
 
 ## Pobavilo mně
