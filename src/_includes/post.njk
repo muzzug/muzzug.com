@@ -38,4 +38,13 @@ permalink: "/{{ lang }}/blog/{{ title | slugify }}.html"
       {%- endif -%}
     {%- endif -%}
   </div>
+
+
 </article>
+
+  {%- if page.lang == "en" -%}
+        <p class="translation-available centered">Do you have anything to say about this article? Send me an <a href="mailto:{{meta.email}}?subject=Response to {{title}}">e-mail</a>!</p>
+  {%- elif page.lang == "cs" -%}
+        <p class="translation-available centered">Chceš mi k tomuhle článku něco říct? Pošli mi <a href="mailto:{{meta.email}}?subject=Reakce na {{title}}">e-mail</a>!</p>
+  {%- endif -%}
+
