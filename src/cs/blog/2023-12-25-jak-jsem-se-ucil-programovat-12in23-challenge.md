@@ -8,7 +8,7 @@ tags: [programování]
 rssOnly: false
 ---
 
-Na [Exercism](https://exercism.org/ byla celý letošní rok aktivní výzva *#12in23* – vyzkoušet si během 12 měsíců 12 různých programovacích jazyků. A aby to byla výzva fakt na celý rok, každý měsíc měl svoje vlastní téma a vybranané jazyky. 
+Na [Exercism](https://exercism.org/) byla celý letošní rok aktivní výzva *#12in23* – vyzkoušet si během 12 měsíců 12 různých programovacích jazyků. A aby to byla výzva fakt na celý rok, každý měsíc měl svoje vlastní téma a vybranané jazyky. 
 
 Můj rok na Exercism vypadal takhle:
 
