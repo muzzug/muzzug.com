@@ -5,7 +5,7 @@ description: 'Now. Česky.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-02-14
+updateDate: 2025-03-26
 ---
 > Tahle stránka je inspirováná hnutím [Now Now Now](https://nownownow.com/).  
 > Jednoduše shrnuje co dělám a čím se zabývám právě teď.
@@ -23,9 +23,11 @@ Máme úžasného kocoura 😸 Siriuse (britská modrá, makrela).
 
 ## Tvořím
 
-- old-school RPG hru  
+- low-poly RPG hru  
 
 ## Čtu
 
-- Annie Zimmerman: Váš kapesní terapeut  
 - Jesse Schell: The Art of Game Design: A Book of Lenses (3rd Edition)
+
+## Hraju
+- Baldur's Gate: Enhanced Edition

@@ -5,7 +5,7 @@ description: 'Now. In English.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-02-14
+updateDate: 2025-03-26
 ---
 > This page is inspired by the [Now Now Now](https://nownownow.com/) movement.  
 > It simply sums up what I'm doing and what I'm dealing with right now.
@@ -23,9 +23,11 @@ We have an amazing cat 😸 Sirius (British blue, mackerel).
 
 ## I'm creating
 
-- old-school RPG game  
+- low-poly RPG game  
 
 ## Reading
 
-- Annie Zimmerman: Váš kapesní terapeut  (czech)
 - Jesse Schell: The Art of Game Design: A Book of Lenses (3rd Edition)
+
+## Playing
+- Baldur's Gate: Enhanced Edition
