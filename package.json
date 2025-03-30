@@ -18,7 +18,7 @@
   "scripts": {
     "watch:sass": "sass --watch src/assets/sass:dist/assets/css",
     "build:sass": "sass src/assets/sass:dist/assets/css",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "eleventy --serve --quiet",
     "build:eleventy": "eleventy",
     "start": "NODE_ENV=development npm-run-all build:sass --parallel watch:*",
     "build": "NODE_ENV=production npm-run-all build:*"

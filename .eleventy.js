@@ -4,10 +4,10 @@ import * as plugins from "./src/_config/plugins.js";
 import * as functions from "./src/_config/functions.js";
 
 
-console.log("Registered Collections:", Object.keys(collections));
-console.log("Registered Filters:", Object.keys(filters));
-console.log("Registered Plugins:", Object.keys(plugins));
-console.log("Registered Functions:", Object.keys(functions));
+// console.log("Registered Collections:", Object.keys(collections));
+// console.log("Registered Filters:", Object.keys(filters));
+// console.log("Registered Plugins:", Object.keys(plugins));
+// console.log("Registered Functions:", Object.keys(functions));
 
 
 
@@ -21,7 +21,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addGlobalData("env", process.env.NODE_ENV || "development");
 
 
-  console.log("Recent posts:", collections.recentPosts_cz);
+  // console.log("Recent posts:", collections.recentPosts_cz);
 
 
   // Collections
@@ -42,6 +42,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.addShortcode(name, func);
   });
 
+
   // Plugins
   
   Object.entries(plugins).forEach(([name, plugin]) => {
@@ -53,6 +54,22 @@ export default async function (eleventyConfig) {
     files: './_site/css/**/*.css',
   });
 
+  // Sledování změn
+
+  // Spusťte funkci po každém sestavení
+    eleventyConfig.on('afterBuild', async () => {
+        await functions.checkLastEditedPost();
+    });
+
+    // Sledování změn souborů pouze v blogových složkách
+    eleventyConfig.on('watch', (changedFile) => {
+      const blogDirectories = ['src/cs/blog', 'src/en/blog'];
+      const isInBlogDirectory = blogDirectories.some(dir => changedFile.startsWith(dir));
+
+      if (isInBlogDirectory && changedFile.endsWith('.md')) {
+          functions.checkLastEditedPost();
+      }
+  });
 
   
 
