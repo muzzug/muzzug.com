@@ -14,7 +14,7 @@
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <social>{{ post.data.social }}</social>
+    <content type="html">{{ post.data.social }}</content>
   </entry>
   {%- endfor %}
 </feed>
