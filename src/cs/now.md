@@ -5,7 +5,7 @@ description: 'Now. Česky.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-03-26
+updateDate: 2025-03-30
 ---
 > Tahle stránka je inspirováná hnutím [Now Now Now](https://nownownow.com/).  
 > Jednoduše shrnuje co dělám a čím se zabývám právě teď.
@@ -19,7 +19,7 @@ Máme úžasného kocoura 😸 Siriuse (britská modrá, makrela).
 
 - pracovat s Godot Engine a GD Scriptem  
 - dělat low poly v Blenderu  
-- jezdit na skútru 🛵  
+- úvod do informatiky - [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) 
 
 ## Tvořím
 

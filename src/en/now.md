@@ -5,7 +5,7 @@ description: 'Now. In English.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-03-26
+updateDate: 2025-03-30
 ---
 > This page is inspired by the [Now Now Now](https://nownownow.com/) movement.  
 > It simply sums up what I'm doing and what I'm dealing with right now.
@@ -19,7 +19,7 @@ We have an amazing cat 😸 Sirius (British blue, mackerel).
 
 - working with Godot Engine and GD Script  
 - creating low poly in Blender  
-- ride a scooter 🛵  
+- introductory course on computer science - [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) 
 
 ## I'm creating
 
