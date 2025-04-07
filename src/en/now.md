@@ -5,7 +5,7 @@ description: 'Now. In English.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-03-30
+updateDate: 2025-04-07
 ---
 > This page is inspired by the [Now Now Now](https://nownownow.com/) movement.  
 > It simply sums up what I'm doing and what I'm dealing with right now.

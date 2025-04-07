@@ -5,7 +5,7 @@ description: 'Now. Česky.'
 slugOverride: 'now'
 layout: page.njk
 translate: true
-updateDate: 2025-03-30
+updateDate: 2025-04-07
 ---
 > Tahle stránka je inspirováná hnutím [Now Now Now](https://nownownow.com/).  
 > Jednoduše shrnuje co dělám a čím se zabývám právě teď.
