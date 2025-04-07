@@ -10,7 +10,7 @@ updateDate: 2025-03-30
 > Tahle stránka je inspirováná hnutím [Now Now Now](https://nownownow.com/).  
 > Jednoduše shrnuje co dělám a čím se zabývám právě teď.
 
-Je mi 35 let.  
+Je mi 36 let.  
 Žiju v Brně.  
 Vzal jsem si tu nejúžasnější holku na světě.  
 Máme úžasného kocoura 😸 Siriuse (britská modrá, makrela).  

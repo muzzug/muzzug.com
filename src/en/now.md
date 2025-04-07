@@ -10,7 +10,7 @@ updateDate: 2025-03-30
 > This page is inspired by the [Now Now Now](https://nownownow.com/) movement.  
 > It simply sums up what I'm doing and what I'm dealing with right now.
 
-I'm 35 years old.  
+I'm 36 years old.  
 I live in Brno.  
 I married the most amazing girl in the world.  
 We have an amazing cat 😸 Sirius (British blue, mackerel).  
