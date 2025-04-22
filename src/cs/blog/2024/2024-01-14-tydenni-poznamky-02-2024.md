@@ -36,7 +36,7 @@ Jedním slovem: super!
 Docela sranda vidět s čím konkrétním mám některé suroviny spojené.
 - Nemám chuť na čokoládu ani podobné věci. 👍
 
-## Zaujalo mně
+## Zaujalo mě
 [Where have all the websites gone?](https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/)
 
 ## Chci!

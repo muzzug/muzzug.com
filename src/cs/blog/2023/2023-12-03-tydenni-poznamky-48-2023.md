@@ -23,5 +23,5 @@ Nakonec jsme ještě skočili pro stromeček, dokud jsou ještě nějaké pěkn�
 - Zbytek soboty jsem strávil mojí oblíbenou zábavou – přeinstalací PC. Nevím proč, ale obvykle takhle před Vánocema dostanu nápad si přeinstalovat PC a začít hezky načisto. Teď mi k tomu sedělo i to, že jsem si pořídil další disk. No podařilo se mi to až na třetí pokus udělat tak, aby mi hned jelo všechno co jsem chtěl (a třeba se nezasekl Microsoft Store hned po startu). Yay!
 Je zajímavé, že když jsem teď měl pár let Mac, tak jsem tuhle tendenci přeinstalovávat neměl… Fakt zajímavé. 🥳
 
-## Zaujalo mně
+## Zaujalo mě
 [Zelda Ocarina of Time 25th anniversary X Ghibli: CASTLE TOWN](https://www.youtube.com/watch?v=meXBzTyaFeg) – krátký film na motivy The Legend of Zelda: Ocarina of Time ve stylu studia Ghibli, vytvořený v Unreal Engine 5. Moc pěkná podívaná!

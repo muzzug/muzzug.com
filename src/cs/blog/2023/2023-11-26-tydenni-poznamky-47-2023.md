@@ -22,7 +22,7 @@ Vánoční stromky (a Vánoce celkově) mi moc neříkají, ale teda musím ř�
 V sobotu jsem při hledání informací jaké SD karty k ní pořídit zjistil, že se v (zrovna v tu sobotu) začala prodávat RG35XX _Plus_ (s WiFi, Bluetooth a zjevně i lepší HW výbavou). Meh! Takže budu objednávat asi znova, no… 
 - V neděli jsem zkusil něco, nad čím už jsem nějakou dobu přemýšlel (a co se se spuštěním herního webu dostalo do fáze „už aby to bylo“) - pořídil jsem si VPS a rozjel na něm [Plausible Analytics](https://plausible.io/). S provozováním serveru nemám prakticky žádné zkušenosti, takže jsem **celý den** strávil pokusy o zabezpečení (a opakovanými reinstalacemi po tom, co jsem si několikrát zablokoval přístup přes SSH 🤦‍♂️), ale nakonec to mám a funguje mi to. Tak snad to nerozeseru něčím dalším. 😀
 
-## Zaujalo mně
+## Zaujalo mě
 - Vyšla knížka „So You Want to Be a Game Master“ od Justina Alexandra z [The Alexandrian](https://thealexandrian.net/so-you-want-to-be-a-game-master). Už se těším až se mi dostane do ruky. 🙂
 
 ## Nad čím přemýšlím

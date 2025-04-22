@@ -19,5 +19,5 @@ Původně jsem si myslel, že to dělá větrák od skříně. Po jeho odpojen
 Jo, vím že Google psal že to může trvat 7 dní, ale stejně.
 - V sobotu jsme S Týnou zašli na brněnské výstaviště na ČokoFest. Trochu odvážné po tom, co mi bylo v týdnu blbě, ale dopadlo to dobře. Ochutnali jsme hromadu pralinek (za mně vyhrála kombinace slanina + whisky + slaný karamel), dali si výborné africké jídlo (kuřecí maso v oříškové omáčce a vepřové se zeleninou pečené v alobalu), zaplácli se plněnými pirožky, a nakonec si odnesli flašku portského (Porto Cruz Tawny) a dva kozí sýry. 
 
-## Zaujalo mně
+## Zaujalo mě
 - Vyšel Blender 4.0. Hmm… Já se zatím plácám ve verzi 3.6 při dělání kurzu pro verzi 3.2. 😀

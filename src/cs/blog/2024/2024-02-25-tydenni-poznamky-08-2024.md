@@ -22,7 +22,7 @@ Během koncertu mi došlo, že jsem za poslednilho půl roku viděl 3 živá vy
 
 Začal jsem na Mastodonu sdílet lístečky se vzkazy z našich oblíbených čajů od Yogi. Ke sledování (nebo ztišení, samozřejmě) jsou pod hashtagem _#TeaHasSpoken_, nebo jako součást [vlákna](https://mastodon.gamedev.place/@muzzug/111956893659790315). 
 
-## Zaujalo mně
+## Zaujalo mě
 
 Úplnou náhodou jsme na Netflixu našli japonský seriál Labužníci v kobce. Rozhodli jsme se mu dát šanci, a tak jsme v sobotu večer sjeli všech 9 dílů co zatím vyšly. 😅 Ale tak co, stejně jsem byl po stěhování unavený a nic dalšího se mi nechtělo.<br><br>
 Seriál se mi docela líbí. I přes to, že japonské animáky nemám rád. Zápletka o procházení dungeonu (s cílem zachránit jednu členku družiny) a pojídání jeho obyvatel je jednoduchá, ale stačí. A hodně se mi líbí i finální zpracování výsledných pokrmů a jejich názvy.<br><br>

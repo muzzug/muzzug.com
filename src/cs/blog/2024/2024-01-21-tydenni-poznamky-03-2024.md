@@ -23,7 +23,7 @@ Jo, řekl bych, že celkem dobře.
 - Zjistil jsem, že moje vynechávání snídaně je spojené s tím, kdy vstanu. Pokud vstanu brzo (obvykle přes týden v cca 6:50), tak mám na snídani i chuť (dám si ji obvykle nějak po 8 když dojdu do práce). O víkendu ale vstávám později (cca v 8:15) a v tu dobu nemám ani hlad a ani chuť snídat.  
 Teď se s tím ještě naučit pracovat.
 
-## Zaujalo mně
+## Zaujalo mě
 - [Diablo but it's lofi beats](https://www.youtube.com/watch?v=d6P99CDSMKk&t=58s). Skvělá předělávka písní z Diabla. A má i další – Skyrim, Zeldu, WoWko… Jako jo, wow!
 
 ## Trochu se bojím

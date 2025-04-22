@@ -29,7 +29,7 @@ V pátek byl poslední den Whole30. Jsem spokojený. Cítím se líp než na 
 Teda – vážil jsem se pravidelně celý měsíc (i když se to nemá), ale na výsledky jsem se nedíval, takže jsem zvědavý, co z toho nakonec vypadne.
 Teď busu postupně pomalu zařazovat vyloučené potraviny a uvidím, jak na ně budu reagovat. 
 
-## Zaujalo mně
+## Zaujalo mě
 Minulý týden to byly filmové foťáky, tenhle týden pro změnu hudební přehrávače.
 Čím dál víc si všímám toho, jak lidi doporučují fyzické vlastnictví věcí oproti streamovacím službám. A tak mi to trochu vrtá hlavou, no.<br><br>
 A tak jsem začal pokukovat po přehrávačích. Jasně, většinu času mám v kapse nebo v ruce nabušený iPhone, který zvládne úplně cokoli co chci, včetně přehrávání hudby. Ale tak nějak poslední dobou přemýšlím nad tím, jak používání „univerzálního“ přístroje zase rozdělit na samostatné kousky podle toho, na co jsou. Začalo to foťákem (i když cvakání iPhonem se nezbavím), papírovými sešity na poznámky (následně přepisované do digitální podoby) a teď hudba.<br><br>

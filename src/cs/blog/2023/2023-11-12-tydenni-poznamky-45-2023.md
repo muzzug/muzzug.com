@@ -27,7 +27,7 @@ V sobotu jsem tomu ještě dal nějakou chvilku, prošel pár tutoriálů, zjis
 - Část soboty a prakticky celou neděli jsem věnoval dodělávání hry. I ♥️ Godot!<br><br>
 Skoro si troufám říct, že se blížím ke konci. Jako že už mně moc nenapadá co tam ještě upravit, přidávat už není co. Už fakt jenom ladím detaily nastavení. Asi to pustím do světa a zkusím sehnat pár lidí, co by si to zahráli a řekli, co je tam všechno špatně.
 
-## Zaujalo mně
+## Zaujalo mě
 
 - Podcast [Na volné noze s Eliškou Šestákovou](https://www.youtube.com/watch?v=i_W0tgqifXc) o PKM a metodě Zettelkasten (bacha, má to přes 5 hodin) 
 - [Video o základech ~~černé magie~~](https://www.youtube.com/watch?v=nyFzPaWAzeQ) shaderů v Godotu

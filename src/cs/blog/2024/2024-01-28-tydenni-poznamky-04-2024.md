@@ -37,5 +37,5 @@ Jedním slovem – v pohodě.
 - Na čem musím ještě zapracovat (a to nejen během W30), je spánkový režim. Zatím pořád dost rozházený. Ale to půjde.
 - Týna mi začíná ukazovat, kde všude hubnu. 🙂 Hodně v pase. Cesta za plochým břichem je daleko a pekáč buchet je na mně spíš připlácnutý, než aby se buchty rýsovaly, ale to všechno je in progress. A myslím, že jsem i na dobré cestě. Jsem zvědavý, jak bude vypadat vážení po skončení. Sice to není cílem W30, ale je to příjemný benefit. 😉
 
-## Zaujalo mně
+## Zaujalo mě
 - Poslední dny na mně všude možně vyskakují články a videa o analogové fotografii. Jako, ne že by mně to nelákalo – dva foťáky (Praktica MTL 50 a Zenit E) se mi válí v šuplíku. A někde mám i Flexaret po dědovi. Ale teda filmy teď stojí pomalu půlku ledviny... Na druhou stranu jsem viděl video jak se dají namotat z cívky doma… Takže možná zvažuju nový koníček? 🤔 😃

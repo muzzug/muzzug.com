@@ -25,7 +25,7 @@ Mimo to jsem upravil i menu – tři odkazy co byly ve spodní části stránk
 Poslední věc, kterou jsem přidal, je lightbox pro fotky. Zatím nikde není, ale mám možnost ho použít když tady budu chtít sdílet nějakou fotku. Mám z toho radost.
 - Do konce tohohle týdne zbývá ještě pár hodin, ale přesně vím, co budu dělat. Budu s Týnou hrát deskovky co jsme si letos pořídili a jíst její luxusní sushi. 🙂
 
-## Zaujalo mně 
+## Zaujalo mě 
 - Komentář [The Internet Is About to Get Weird Again](https://www.rollingstone.com/culture/culture-commentary/internet-future-about-to-get-weird-1234938403/)
 - [Some blogging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/)
 - Jak jsem minulý týden dával k poslechu Valhalleluja od Nanowar of Steel, tak jsem se pořádně zaposlouchal do jejich alba [Dislike to false metal](https://open.spotify.com/album/29UHZ8FbKbrh3MrIIujWFf?si=OISYK5QBRKaHFpM39iyseA) z letošního března. Můžu s klidným srdcem doporučit, a zvlášť doporučím soustředit se na texty. Mám takový pocit, že mi ho příští rok Spotify vyhodnotí jako nejposlouchanější album roku. 😅
