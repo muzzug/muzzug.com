@@ -38,7 +38,7 @@ export const blog_cz = (collection) => {
 
 export const blog_en = (collection) => {
   const posts = collection
-    .getFilteredByGlob("src/en/blog/*.md")
+    .getFilteredByGlob("src/en/blog/*/*.md")
     .filter(post => !post.data.rssOnly)
     .sort((a, b) => b.date - a.date);  
 
@@ -84,7 +84,7 @@ export const recentPosts_cz = (collection) => {
 
 export const recentPosts_en = (collection) => {
   const posts = collection
-    .getFilteredByGlob("src/en/blog/*.md")
+    .getFilteredByGlob("src/en/blog/*/*.md")
     .sort((a, b) => b.date - a.date)
     .slice(0, 5); // Get the last 5 posts
   return posts;
@@ -98,6 +98,6 @@ export const recentPosts_en = (collection) => {
   };
   
   export const rss_en = (collection) => {
-    return collection.getFilteredByGlob("src/en/blog/*.md").sort((a, b) => b.date - a.date);
+    return collection.getFilteredByGlob("src/en/blog/*/*.md").sort((a, b) => b.date - a.date);
   };
 

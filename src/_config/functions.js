@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const blogDirectories = ['src/cs/blog', 'src/en/blog'];
-    
+
 function extractFrontmatter(content) {
     const frontmatterRegex = /^---\n([\s\S]*?)\n---/;
     const match = content.match(frontmatterRegex);
@@ -17,7 +17,6 @@ function extractFrontmatter(content) {
     return {};
 }
 
-// Definice barevných kódů
 const colors = {
     reset: "\x1b[0m",
     red: "\x1b[31m",
@@ -29,19 +28,35 @@ const colors = {
     white: "\x1b[37m",
 };
 
-// Funkce pro barevný výstup
 function logWithColor(color, message) {
     console.log(`${colors[color]}${message}${colors.reset}`);
 }
 
-// Použití ve vaší funkci
+// ✅ Rekurzivní funkce pro hledání .md souborů
+function getMarkdownFilesRecursive(dir) {
+    let results = [];
+
+    const list = fs.readdirSync(dir);
+    list.forEach((file) => {
+        const fullPath = path.join(dir, file);
+        const stat = fs.statSync(fullPath);
+
+        if (stat && stat.isDirectory()) {
+            results = results.concat(getMarkdownFilesRecursive(fullPath));
+        } else if (file.endsWith('.md')) {
+            results.push(fullPath);
+        }
+    });
+
+    return results;
+}
+
+// ✅ Exportovaná funkce, kterou můžeš spustit z `.eleventy.js`
 export async function checkLastEditedPost() {
     let lastEditedPost = null;
 
     for (const dir of blogDirectories) {
-        const files = fs.readdirSync(dir)
-            .filter(file => file.endsWith('.md'))
-            .map(file => path.join(dir, file));
+        const files = getMarkdownFilesRecursive(dir);
 
         for (const file of files) {
             const stats = fs.statSync(file);
