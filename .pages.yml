@@ -14,7 +14,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd HH:mm:ss
+          format: yyyy-MM-ddTHH:mm:ss+02:00
       - name: title
         label: Title
         type: string
@@ -38,7 +38,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd HH:mm:ss
+          format: yyyy-MM-ddTHH:mm:ss+02:00
       - name: title
         label: Title
         type: string
